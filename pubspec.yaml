@@ -1,7 +1,7 @@
-name: syncfusion_flutter_gauges
-description: Syncfusion Flutter gauges library includes data visualization widgets such as radial gauge, which is written in dart, to create modern, interactive, and animated gauges.
-version: 18.1.59
-homepage: https://github.com/syncfusion/flutter-examples
+name: atoi_gauge
+description: gauge chart for atoi
+version: 0.0.1
+homepage: https://github.com/EzekR/atoi_gauge
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
