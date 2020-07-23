@@ -9,7 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  syncfusion_flutter_core: 18.1.59
   intl: ">=0.15.0 <0.17.0"
 
 flutter:
