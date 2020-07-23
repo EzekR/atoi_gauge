@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:syncfusion_flutter_core/src/theme/range_slider_theme.dart';
-import 'package:syncfusion_flutter_core/src/theme/slider_theme.dart';
+import 'package:atoi_gauge/src/theme/range_slider_theme.dart';
+import 'package:atoi_gauge/src/theme/slider_theme.dart';
 import 'barcodes_theme.dart';
 import 'calendar_theme.dart';
 import 'charts_theme.dart';
