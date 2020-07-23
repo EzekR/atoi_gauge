@@ -19,7 +19,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:intl/intl.dart' show NumberFormat;
-import './theme.dart'
+import './theme.dart';
 
 // export circular gauge library
 part './src/radial_gauge/gauge/radial_gauge.dart';
