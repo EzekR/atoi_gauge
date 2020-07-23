@@ -500,7 +500,6 @@ class _SfRadialGaugeState extends State<SfRadialGauge>
   ///
   @override
   Widget build(BuildContext context) {
-    SyncfusionLicense.validateLicense(context);
     widget._radialGaugeState = this;
 
     return LimitedBox(
