@@ -44,7 +44,7 @@ class SfGaugeTheme extends InheritedTheme {
 ///  this class to configure a [SfGaugeTheme] widget
 ///
 /// To obtain the current theme, use [SfGaugeTheme.of].
-class SfGaugeThemeData with Diagnosticable {
+class SfGaugeThemeData with DiagnosticableMixin {
   factory SfGaugeThemeData({
     Brightness brightness,
     Color backgroundColor,

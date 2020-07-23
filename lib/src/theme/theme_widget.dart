@@ -72,7 +72,7 @@ class _SfInheritedTheme extends InheritedTheme {
 ///  this class to configure a [SfTheme] widget.
 ///
 /// To obtain the current theme, use [SfTheme.of].
-class SfThemeData with Diagnosticable {
+class SfThemeData with DiagnosticableMixin {
   factory SfThemeData(
       {Brightness brightness,
       SfChartThemeData chartThemeData,

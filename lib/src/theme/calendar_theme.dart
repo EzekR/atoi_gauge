@@ -43,7 +43,7 @@ class SfCalendarTheme extends InheritedTheme {
 ///  this class to configure a [SfCalendarTheme] widget
 ///
 /// To obtain the current theme, use [SfCalendarTheme.of].
-class SfCalendarThemeData with Diagnosticable {
+class SfCalendarThemeData with DiagnosticableMixin {
   factory SfCalendarThemeData({
     Brightness brightness,
     Color backgroundColor,

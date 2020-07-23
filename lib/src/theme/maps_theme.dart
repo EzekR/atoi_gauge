@@ -43,7 +43,7 @@ class SfMapsTheme extends InheritedTheme {
 ///  this class to configure a [SfMapsTheme] widget
 ///
 /// To obtain the current theme, use [SfMapsTheme.of].
-class SfMapsThemeData with Diagnosticable {
+class SfMapsThemeData with DiagnosticableMixin {
   factory SfMapsThemeData(
       {Brightness brightness,
       TextStyle titleTextStyle,

@@ -39,7 +39,7 @@ class SfSliderTheme extends InheritedTheme {
   }
 }
 
-class SfSliderThemeData with Diagnosticable {
+class SfSliderThemeData with DiagnosticableMixin {
   factory SfSliderThemeData(
       {Brightness brightness,
       double activeTrackHeight,

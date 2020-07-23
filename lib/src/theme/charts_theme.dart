@@ -43,7 +43,7 @@ class SfChartTheme extends InheritedTheme {
 ///  this class to configure a [SfChartTheme] widget
 ///
 /// To obtain the current theme, use [SfChartTheme.of].
-class SfChartThemeData with Diagnosticable {
+class SfChartThemeData with DiagnosticableMixin {
   factory SfChartThemeData(
       {Brightness brightness,
       Color backgroundColor,

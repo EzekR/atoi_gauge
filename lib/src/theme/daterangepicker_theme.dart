@@ -45,7 +45,7 @@ class SfDateRangePickerTheme extends InheritedTheme {
 ///  this class to configure a [SfDateRangePickerTheme] widget
 ///
 /// To obtain the current theme, use [SfDateRangePickerTheme.of].
-class SfDateRangePickerThemeData with Diagnosticable {
+class SfDateRangePickerThemeData with DiagnosticableMixin {
   factory SfDateRangePickerThemeData({
     Brightness brightness,
     Color backgroundColor,

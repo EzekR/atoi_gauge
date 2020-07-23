@@ -43,7 +43,7 @@ class SfBarcodeTheme extends InheritedTheme {
 ///  this class to configure a [SfBarcodeTheme] widget
 ///
 /// To obtain the current theme, use [SfBarcodeTheme.of].
-class SfBarcodeThemeData with Diagnosticable {
+class SfBarcodeThemeData with DiagnosticableMixin {
   factory SfBarcodeThemeData({
     Brightness brightness,
     Color backgroundColor,

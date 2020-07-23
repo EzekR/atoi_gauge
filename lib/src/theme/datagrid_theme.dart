@@ -43,7 +43,7 @@ class SfDataGridTheme extends InheritedTheme {
 ///  this class to configure a [SfDataGridTheme] widget
 ///
 /// To obtain the current theme, use [SfDataGridTheme.of]
-class SfDataGridThemeData with Diagnosticable {
+class SfDataGridThemeData with DiagnosticableMixin {
   factory SfDataGridThemeData(
       {Brightness brightness,
       DataGridHeaderCellStyle headerStyle,
