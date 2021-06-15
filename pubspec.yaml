@@ -9,6 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ">=0.15.0"
+  intl: 0.17.0
 
 flutter:
